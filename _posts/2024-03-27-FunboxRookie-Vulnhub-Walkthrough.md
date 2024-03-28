@@ -183,4 +183,4 @@ Ran the following to start a shell running as root:
 `sudo su`
 
 See below screenshot of the root shell and flag:  
-![Funbox Rookie Flag](https://raw.githubusercontent.com/CodeStuffBreakThings/CodeStuffBreakThings.github.io/main/images/funboxrookie_flag_root.png)
+![Funbox Rookie Flag](images/funboxrookie_flag_root.png)
