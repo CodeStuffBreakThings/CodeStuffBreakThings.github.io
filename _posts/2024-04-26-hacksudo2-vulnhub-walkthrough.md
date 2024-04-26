@@ -51,22 +51,8 @@ PORT      STATE SERVICE  VERSION
 37059/tcp open  mountd   1-3 (RPC #100005)  
 48763/tcp open  mountd   1-3 (RPC #100005)  
 58523/tcp open  mountd   1-3 (RPC #100005)  
-MAC Address: 08:00:27:73:22:61 (Oracle VirtualBox virtual NIC)  
-Device type: general purpose  
-Running: Linux 5.X  
-OS CPE: cpe:/o:linux:linux_kernel:5  
-OS details: Linux 5.0 - 5.3  
-Network Distance: 1 hop  
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel  
->  
-TRACEROUTE  
-HOP RTT     ADDRESS  
-1   0.56 ms 10.0.3.59  
->  
-OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .  
-Nmap done: 1 IP address (1 host up) scanned in 29.62 seconds  
 
-Ran nikto to enumerate information and potential vulnerabilities for the web server running on port 80
+Ran nikto to enumerate information and potential vulnerabilities for the web server running on port 80  
 `sudo nikto -h http://10.0.3.59`
 >\- Nikto v2.5.0  
 \---------------------------------------------------------------------------  
@@ -76,11 +62,7 @@ Ran nikto to enumerate information and potential vulnerabilities for the web ser
 \+ Start Time:         2023-07-22 17:22:42 (GMT-4)  
 \---------------------------------------------------------------------------  
 \+ Server: Apache/2.4.46 (Ubuntu)  
-\+ /: The anti-clickjacking X-Frame-Options header is not present. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options  
-\+ /: The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type. See: https://www.netsparker.com/web-vulnerability-scanner/vulnerabilities/missing-content-type-header/  
-\+ No CGI Directories found (use '-C all' to force check all possible dirs)  
-\+ /: Server may leak inodes via ETags, header found with file /, inode: 633, size: 5bda170f7dd76, mtime: gzip. See: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2003-1418  
-\+ Apache/2.4.46 appears to be outdated (current is at least Apache/2.4.54). Apache 2.2.34 is the EOL for the 2.x branch.  
+[...]  
 \+ OPTIONS: Allowed HTTP Methods: OPTIONS, HEAD, GET, POST .  
 \+ /web/: Directory indexing found.  
 \+ /css/: Directory indexing found.  
