@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://codestuffbreakthings.github.io/sitemap.xml
