@@ -111,6 +111,8 @@ It appears to be a simple image gallery.
 Clicking on one of the images leads to a page that displays the selected image and information about it:  
 ![Momentum website image gallery photo demon](../images/momentum1_enum_imagegallery.png)  
 
+## Exploitation
+
 Looked under the hood at the homepage source code:  
 ![Momentum website homepage source code](../images/momentum1_enum_homepage_sourcecode.png)  
 There's a javascript function named "viewDetails" that gets called when the onclick event is triggered.  
