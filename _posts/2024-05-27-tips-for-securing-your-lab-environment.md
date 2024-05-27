@@ -4,12 +4,15 @@ description: >-
 title: "Tips for securing your pentesting lab environment"
 categories: [Tips]
 tags: [tips, ctf, vulnhub, lab, cybersecurity]
-date: 2024-05-27 12:00:00 -0500
+date: 2024-05-27 14:00:00 -0500
 ---
+## Overview
 When running intentionally vulnerable virtual machines to practice attacking in your lab environment, there are some inherent risks that come with these machines.  
 
-If you are downloading and using a vulnerable virtual machine created by someone who isn't you, it is possible that the machine is backdoored or infected. For example, the machine could contain a cronjob that attempts to initiate a reverse shell connection to an attacker's infrastructure. The machine could also contain a guest-to-host privilege escalation vulnerability that gets intentionally triggered to infect your host machine.  
+If you are downloading and using a vulnerable virtual machine created by someone who isn't you, it is possible that the machine is backdoored or infected. For example, the machine could contain a cronjob that attempts to initiate a reverse shell connection to an attacker's infrastructure. The machine could also intentionally contain a guest-to-host privilege escalation vulnerability that gets exploited to compromise your host machine.  
 Even if the machine was not created by a malicious actor, it is vulnerable and should be treated as such.  
+
+## Tips
 
 Below are some actions you can take to better protect yourself when you are doing your pentesting labs:  
 * Keep your attacker machine OS and software up-to-date on patches
