@@ -15,5 +15,7 @@ For 2024, my goals are to acquire several offensive security certifications and 
 - [x] OSCP - 1/18
 - [x] CRTP - 3/19
 - [x] CRTE - 5/13
-- [ ] CRTO - In Progress
-- [ ] OSEP
+- [x] CRTO - 6/29
+- [x] OSEP - 10/24
+
+Needless to say, it's been a busy year!
